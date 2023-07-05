@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+   font-family: 'Poppins', sans-serif;
+}
+
+.display-image img{
+    position: absolute;
+    width: 50vw;
+    height: 70vh;
+}
+
+h2 {
+margin-left: 50px;
+padding-top: 50px;
+}
+h5{
+    margin-left: 10%;
+    font-size: 18px;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+
+.content{
+    padding: 35% 20% 5% 5%;
+}
+.points .span{
+    margin-left: 5%;
+}
+.content h3 {
+    padding: 50px;
+    margin-left: 10%;
+    color: blue;
+}
+.content h4 {
+    margin-left: 5%;
+
+    margin: 5%;
+    line-height: 40px;
+    font-size: 16px;
+}
+.content h4 span{
+    text-decoration: underline;
+    color: #510feb;
+}
+ .content p {
+    margin:0 80px;
+    line-height: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.points{
+    margin: 0 10%;
+    line-height: 40px;
+}
+
+.overview h1{
+    text-align: center;
+    color: #eb0c0c;
+    font-size: 40px;
+}
+.overview h2{
+    color: #510feb;
+    margin-left: 10%;
+    padding-bottom: 20px;
+}
+.overview h3{
+    font-size: 16px;
+    margin-left: 5%;
+    padding-bottom: 18px;
+}
+.overview h4{
+    margin-left: 30%;
+    padding: 40px 0;
+}
+.overview h4{
+    padding: 5px;
+}
+.overview h6{
+    font-size: 16px;
+    padding-bottom: 2px;
+}
+
+i{
+    color: #510feb;
+}
+.overview{
+    padding: 5% 20% 5% 5%;
+}
+
+.overview p{
+    margin:0 80px;
+    line-height: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btns{
+   
+   padding-top: 20px; 
+}
+.btn{
+    padding-bottom:20px;
+}
+.prev {
+    position: static;
+    margin-left: 10px;
+}
+.nxt {
+
+  float: right;
+  margin-right: 30%;
+  
+}
+.assignment{
+    margin-left: 2%;   
+}
+
+
+button{
+    position: static;
+    width: 120px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    background: #510feb;
+}
+button:hover{
+    
+    background: #eb0c0c;
+    border-radius: 5px;
+}
+button a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 16px;
+}
+        
