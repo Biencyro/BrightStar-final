@@ -1,0 +1,23 @@
+.updates-container {
+    padding: 40px;
+    background-color: rgb(212, 212, 181);
+    margin: 10% 20%;
+    border-radius: 20px;
+    line-height: 30px;  
+    
+}
+.updates-container span {
+    text-decoration: underline;
+}
+
+@media (max-width: 760px) {
+    .updates-container {
+        
+        width: 80%;
+        line-height: 24px;
+        height: 42vh;
+        margin: 10% 5%;
+        font-size: 15px;
+        
+    }
+}

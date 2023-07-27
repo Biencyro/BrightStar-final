@@ -1,0 +1,106 @@
+
+
+.contact-page {
+    padding: 10%;
+    width: 1350px;
+    background-image: url('/public/images/bg-5.jpg');
+    height:720px;
+    line-height: 30px;   
+}
+.contact-page h2 {
+    color: orangered;
+    font-size: larger;
+    text-align: center;
+    float: left;
+}
+
+.deets {
+    float: left;
+    line-height: 40px;
+}
+.deets li{
+    color: #a688ec; 
+}
+.deets ul a {
+    color: #d872c7;
+}
+.deets i{
+    height: 40px;
+    width: 40px;
+    color: #eb0fbb;
+    font-size: 20px;
+}
+
+.deets i:hover {
+    background-color: transparent;
+    padding-left: 8px;
+    cursor: pointer;
+
+}
+ .contact-page label{
+    color: #fff;
+    
+ }
+
+ 
+.contact-page form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 60px;
+    float: right;
+    
+}
+.contact-page input {
+    width: 30vw;
+}
+
+.txt {
+    height: 10vh; 
+    width: 30vw;
+    background-color: rgb(191, 191, 218);
+    padding: 0 20px 0 60px ;
+    border-color: rgb(191, 191, 218);
+    border-radius: 10px;
+}
+
+
+input[type="submit"] {
+    color: #fff;
+    margin-top: 2rem;
+      cursor: pointer;
+      background: rgb(249, 105, 14);
+      color: white;
+      border: none;
+      border-radius: 5px;
+ }
+ input[type="submit"]:hover{
+    background: red;
+ }
+
+
+ @media (max-width: 760px) {
+    .contact-page {
+        padding: 10%;
+        width: 480px;
+        background-image: none;
+        background-color: rgb(4, 15, 31);
+        height:820px;
+        line-height: 30px;   
+    }
+
+    .contact-page form {
+        margin-top: 20px;
+        padding: 10px 60px;
+        float: left;
+        
+    }
+
+    .txt {
+        height: 10vh; 
+        width: 50vw;
+        background-color: #fff;
+        padding: 0 20px 0 60px ;
+        border-color: rgb(191, 191, 218);
+        border-radius: 10px;
+    }
+ }

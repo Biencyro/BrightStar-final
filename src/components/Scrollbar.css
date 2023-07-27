@@ -1,41 +1,58 @@
 .scroll-bar-main{
-    padding-top: 30px;
+    padding-top: 20px;
     float: right;
     display: flex;
     flex-direction: column;
     position: sticky;
-    top:0;
-    height: 100vh;
+    top:15%;
+    height: 80vh;
+    padding-right: 40px;
 }
 
 .scroll-bar{
    
-    margin-right: 20px;
-    height: 100vh;
+    margin-right:0;
+    height: 70vh;
     width: 20vw;
     border:none;
     overflow: auto;
     text-decoration: none;
 }
-.scroll-bar h2{
-    text-decoration: none;
-    color: rgb(14, 99, 168);
-}
-
-.scroll-bar a h3{
-
-}
 .scroll-bar a{
-    padding: 5%;
     text-decoration: none;
+    
+}
+.scroll-bar-main span{
+    font-size: 30px; 
+     color: brown;
+    
+}
+.scroll-bar a ul{
+    font-size: 16px;
+    color: rgb(38, 0, 255);
+    padding-top: 30px;
+    
+}
+.scroll-bar a li{
+    font-size: 16px;
+    color: black;
+    list-style: none;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    
 }
 
-.scroll-bar a h4{
-    text-decoration: none;
-    color: rgb(38, 0, 255);
-    font-size: 18px;
-}
 .scroll-bar a p{
-    text-decoration: none;
-    color: rgb(26, 119, 119);
+     color: rgb(26, 119, 119);
+    font-size: 14px;
+}
+
+
+@media (max-width: 760px) {
+    .scroll-bar{
+        display: none;
+    }
+    .scroll-bar-main span{
+        display: none;
+    }
 }

@@ -1,102 +1,102 @@
-* {
+
+*{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;  
-   font-family: 'Poppins', sans-serif;
+    padding: 0;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.display-image img{
-    position: absolute;
-    width: 50vw;
+.display-image {
+   
+    width: 60vw;
     height: 70vh;
+   
+}
+.content h1{
+    text-align: center;
+    color: #eb0c0c;
+    font-size: 24px;
 }
 
-h2 {
+.content h2 {
 margin-left: 50px;
 padding-top: 50px;
-}
-h5{
-    margin-left: 10%;
-    font-size: 18px;
-    line-height: 40px;
-    padding-bottom: 20px;
-}
-
-.content{
-    padding: 35% 20% 5% 5%;
-}
-.points .span{
-    margin-left: 5%;
+font-size: 22px;
+color: #510feb;
+text-decoration: underline;
 }
 .content h3 {
-    padding: 50px;
+    padding: 20px;
     margin-left: 10%;
     color: blue;
+    font-size: 20px;
 }
 .content h4 {
-    margin-left: 5%;
-
-    margin: 5%;
+   
     line-height: 40px;
-    font-size: 16px;
+    font-size: 18px;
+    padding-bottom: 16px;
 }
 .content h4 span{
     text-decoration: underline;
     color: #510feb;
-}
- .content p {
-    margin:0 80px;
-    line-height: 40px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.points{
-    margin: 0 10%;
-    line-height: 40px;
+    font-size: 18px;
 }
 
-.overview h1{
-    text-align: center;
-    color: #eb0c0c;
-    font-size: 40px;
-}
-.overview h2{
-    color: #510feb;
+.content h5{
     margin-left: 10%;
-    padding-bottom: 20px;
-}
-.overview h3{
     font-size: 16px;
-    margin-left: 5%;
-    padding-bottom: 18px;
+    line-height: 40px;
+    padding-bottom: 16px;
+
 }
-.overview h4{
-    margin-left: 30%;
-    padding: 40px 0;
-}
-.overview h4{
-    padding: 5px;
-}
-.overview h6{
+
+.content h6{
     font-size: 16px;
     padding-bottom: 2px;
 }
+.content img {
+    padding: 5% 24% 5% 5%;
+}
+.content {
+    padding: 5% 24% 5% 5%;
+    background-color: aliceblue ;  
+}
 
-i{
+
+.points .span{
+    margin-left: 5%;
+}
+
+.content p{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 40px;
+   
+}
+
+.content a {
     color: #510feb;
 }
-.overview{
-    padding: 5% 20% 5% 5%;
-}
 
-.overview p{
-    margin:0 80px;
-    line-height: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.content i{
+    color: #510feb;
 }
+.content ul{
+    line-height: 40px ;
+    font-size: 16px;
+    margin-left: 40px;
+}
+.content ul li {
+    list-style-type: square;
+    line-height: 30px;
+    margin-left: 60px;
+  }
+
 
 .btns{
    
-   padding-top: 20px; 
+   padding-top: 10px; 
 }
 .btn{
     padding-bottom:20px;
@@ -116,13 +116,12 @@ i{
 }
 
 
-button{
-    position: static;
-    width: 120px;
-    height: 25px;
-    border: none;
+.content button {
+   height: 40px;
+    background: #f5a209;
+    margin-right: 6%;
     border-radius: 5px;
-    background: #510feb;
+
 }
 button:hover{
     
@@ -135,3 +134,66 @@ button a {
     font-size: 16px;
 }
         
+
+@media (max-width: 760px) {
+
+    .content h1{
+        font-size: 20px;
+        
+    }
+    
+    .content, .content ul {
+    
+      padding: 5%;  
+    }
+
+    .display-image {
+   
+        width: 88vw;
+        height: 50vh;
+    }  
+    
+    .content p{
+        font-size: 16px;
+        line-height: 34px;
+    }
+    .content h3{
+        font-size: 18px;
+    }
+
+    .btns{
+   
+        padding-top: 20px; 
+     }
+     .btn{
+         padding-bottom:20px;
+     }
+     .prev {
+         position: static;
+         margin-left: 5px;
+     }
+     .nxt {
+     
+       float: right;
+       margin-right: 5%;
+       
+     }
+     .assignment{
+         margin-left: 0;   
+     }
+
+
+     .content button a {
+       
+        font-size: 16px;
+    }
+    .content button {
+        height: 40px;
+        width: 30vw;
+         
+     
+     }
+     
+     
+}
+

@@ -1,0 +1,26 @@
+.emb-video {
+    width: 60vw;
+    height: 70vh;
+    position: inherit;
+
+}
+.emb-video video {
+    width: 60vw;
+    height: 70vh;
+    
+} 
+
+@media (max-width: 760px) {
+
+    .emb-video {
+        width: 88vw;
+        height: 50vh;
+        padding: 60px 0;
+    
+    }
+    .emb-video video {
+        width: 88vw;
+        height: 50vh;
+        
+    }
+}

@@ -1,27 +1,27 @@
- import {projectAuth} from '../firebase/config'
+//  import {projectAuth} from '../firebase/config'
 
- let error = null;
+//  let error = null;
 
- const signUp = async (email, password) => {
-     error = null;
+//  const signUp = async (email, password) => {
+//      error = null;
 
-    try {
-        const res = await projectAuth.createUserWithEmailAndPassword(
-             email, password
-         );
-         if (!res) {
-             throw new Error("Something went wrong.");
-         }
+//     try {
+//         const res = await projectAuth.createUserWithEmailAndPassword(
+//              email, password
+//          );
+//          if (!res) {
+//              throw new Error("Something went wrong.");
+//          }
 
-     } catch (err) {
-         error = err.message;
+//      } catch (err) {
+//          error = err.message;
          
 
-     }
- };
+//      }
+//  };
 
- const userSignUp = () => {
-     return {error, signUp};
- };
+//  const userSignUp = () => {
+//      return {error, signUp};
+//  };
 
- export default userSignUp;
+//  export default userSignUp;

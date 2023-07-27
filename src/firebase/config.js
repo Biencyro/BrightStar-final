@@ -1,19 +1,46 @@
-import firebase from 'firebase/compat/app'
-import 'firebase/compat/auth'
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
 const firebaseConfig = {
-    apiKey: "AIzaSyC5FslZA2oYxLvJF4ienJfDqxriCZdI3R4",
-    authDomain: "brightstar-e60f6.firebaseapp.com",
-    projectId: "brightstar-e60f6",
-    storageBucket: "brightstar-e60f6.appspot.com",
-    messagingSenderId: "403257699246",
-    appId: "1:403257699246:web:0add3c77b2e3a82486763f",
-    measurementId: "G-TRNQMFCNP0"
-  };
+  apiKey: "AIzaSyCwbLXTM6fVK3xJEIj3pGWgS6vV_Q1mWxQ",
+  authDomain: "brightstar-final.firebaseapp.com",
+  projectId: "brightstar-final",
+  storageBucket: "brightstar-final.appspot.com",
+  messagingSenderId: "677439499157",
+  appId: "1:677439499157:web:4077c7a1a8b544fa76e49c",
+  measurementId: "G-HY2258QCR9"
+};
 
   firebase.initializeApp(firebaseConfig);
 
   const projectAuth = firebase.auth();
 
   export { projectAuth};
+
+  /*
+  import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/firestore';
+
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCwbLXTM6fVK3xJEIj3pGWgS6vV_Q1mWxQ",
+  authDomain: "brightstar-final.firebaseapp.com",
+  projectId: "brightstar-final",
+  storageBucket: "brightstar-final.appspot.com",
+  messagingSenderId: "677439499157",
+  appId: "1:677439499157:web:4077c7a1a8b544fa76e49c",
+  measurementId: "G-HY2258QCR9"
+};
+
+  firebase.initializeApp(firebaseConfig);
+
+  const projectAuth = firebase.auth();
+
+  export { projectAuth};
+
+  export const projectFirestore = firebase.firestore();
+  */

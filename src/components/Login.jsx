@@ -1,6 +1,6 @@
-import {useState} from 'react';
+import React,{useState} from 'react';
 import userLogin from "../auth/userLogin";
-import {useNavigate, useLocation} from "react-router-dom";
+import {useNavigate, useLocation, Link} from "react-router-dom";
 
 
 
@@ -12,13 +12,13 @@ const Login = (props) => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const from = location.state?.from?.pathname ;
+  const from = location.state?.from?.pathname || "/homepage";
 
   const {error, login} = userLogin ();
 
   const handleLogin = async (e) => {
     e.preventDefault();
-    await login(email,password);
+    await login (email, password);
     if (!error) {
       navigate(from, {replace: true} );
       setEmail("")
@@ -32,18 +32,34 @@ const Login = (props) => {
 
   return (
     <>
-    <h2>Login to your account</h2>
+    
+    <div className='max-w-[600px] mx-auto my-16 p-4'>
+    <h1 className='text-2xl font-bold py-2'>Sign to your account</h1>
+    
+
     <form onSubmit = {handleLogin}>
+
+    <div className='flex flex-col py-2'>
+    <label className='py-2 font-medium'>Email</label>
       <input type="email"  placeholder='Email' value={email}
-      onChange={(e) => setEmail(e.target.value)}/>
-      <input type="password" placeholder='Password' value={password}
-      onChange={(e) => setPassword(e.target.value)}/>
-      
+      onChange={(e) => setEmail(e.target.value)} required/>
+    </div>
+
+    <div className='flex flex-col py-2'>
+    <label className='py-2 font-medium'>Password</label>
+      <input  type="password" placeholder='Password' value={password}
+      onChange={(e) => setPassword(e.target.value)} required/>
+    </div>
+
       {error && <p>{errorMessage}</p>}
-      <button type='submit'>Login</button>
-      <p>Have no account?</p>
-      <button onClick={props.toggleForm} type='submit'>Sign Up </button>
+      <button className=' bg-blue-600 hover:bg-blue-500 w-full h-full p-2 my-2 text-white ' type='submit'>Login</button>
+      
+      <p className='py-2'> Don't have an account yet? <Link to='/payment1' className='underline'>Sign Up.</Link> 
+      </p>
+
     </form>
+    </div>
+    
     </>
   );
 };
@@ -51,58 +67,61 @@ const Login = (props) => {
 export default Login
 
 
-/*import {useState} from 'react';
-import userLogin from "../auth/userLogin";
-import {useNavigate, useLocation} from "react-router-dom";
+
+
+/*
+import React, { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 
 
 
-const Login = (props) => {
-  const [email, setEmail]= useState("");
-  const [password, setPassword]= useState("");
-  const [errorMessage, setErrorMessage] = useState(null);
 
+const Login = () => {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
   const navigate = useNavigate();
-  const location = useLocation();
+  
+  const {signIn} = UserAuth();
 
-  const from = location.state?.from?.pathname || "/dashboard";
-
-  const {error, login} = userLogin ();
-
-  const handleLogin = async (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    await login(email,password);
-    if (!error) {
-      navigate(from, {replace: true} );
-      setEmail("")
-      setPassword("")
-      return;
-    } else {
-      setErrorMessage(error)
+    setError('')
+    try {
+      await signIn(email, password)
+      navigate('/lesson1')
+    } catch (e) {
+      error(e.message)
+      console.log(e.message)
     }
   };
 
   return (
-  <>
-  <h2>Login to your account</h2>
-   <form onSubmit = {handleLogin}>
-    <input type="email" placeholder="email" 
-    value = {email}
-    onChange = {(e) => setEmail(e.target.value)} />
+     
+    <div className='max-w-[760px] mx-auto my-16 p-4'>
+      <div>
+        <h1 className='text-2xl font-bold py-2'>Sign to your account</h1>
+        <p className='py-2'> 
+        Don't have an account yet? <Link to='/payment1' className='underline'>Sign Up.</Link> 
+        </p>
+      </div>
+      <form onSubmit={handleSubmit}>
+        <div className='flex flex-col py-2'>
+          <label className='py-2 font-medium'>Email</label>
+          <input onChange={(e)=> setEmail(e.target.value)} className='border p-3' type="email" placeholder='Email' required/>
+        </div>
 
-    <input type="password" placeholder="password"
-     value = {password}
-     onChange = {(e) => setPassword(e.target.value)}/>
+        <div className='flex flex-col py-2'>
+        <label className='py-2 font-medium'>Password</label>
+        <input onChange={(e)=> setPassword(e.target.value)} className='border p-3' type="password" placeholder='Password' required/>
+        </div>
+        <br />
+        <button className='border border-blue-500 bg-blue-600 hover:bg-blue-500 w-full h-full p-4 my-2 text-white '>Login</button>
+      </form>
+    </div>
+    
+  )
+}
 
-     {error && <p>{errorMessage}</p>}
-    <button type='submit'>Login</button>
-    </form>
-    <p>Have no account?</p>
-    <button onClick  ={props.toggleForm} >Sign Up</button>
-  </>
-  );
-  
-};
-
-export default Login;
+export default Login
 */

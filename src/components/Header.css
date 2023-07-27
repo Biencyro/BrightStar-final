@@ -7,7 +7,7 @@ header img {
 
 header {
     background: #0f0f0f;
-    color:beige;
+    
     padding: 10px;
     text-align: center;
     height: 120px;
@@ -24,8 +24,9 @@ header {
     padding-right: 20px;
 
 } 
-.nav a:hover{
-    width: 19px;
+.nav-links a:hover{
+   
+    background: transparent;
     color: #ffffff;
 }
 
@@ -35,5 +36,16 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center; 
+    
+}
+.nav:hover{
+    background-color: transparent; 
 }
 
+@media (max-width: 760px) {
+    header{
+       display: none;
+        
+    }
+
+}
