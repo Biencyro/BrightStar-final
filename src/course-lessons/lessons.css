@@ -138,7 +138,7 @@ button a {
 @media (max-width: 760px) {
 
     .content h1{
-        font-size: 20px;
+        font-size: 18px;
         
     }
     
@@ -153,12 +153,12 @@ button a {
         height: 50vh;
     }  
     
-    .content p{
-        font-size: 16px;
-        line-height: 34px;
+    .content p, .content ul{
+        font-size: 14px;
+        line-height:30px;
     }
     .content h3{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .btns{
@@ -185,13 +185,11 @@ button a {
 
      .content button a {
        
-        font-size: 16px;
+        font-size: 15px;
     }
     .content button {
         height: 40px;
         width: 30vw;
-         
-     
      }
      
      

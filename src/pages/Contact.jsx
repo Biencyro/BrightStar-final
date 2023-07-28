@@ -35,14 +35,14 @@ const Contact = () => {
         <h2>Contact us via:</h2> <br />
         <ul>
             <li>Email:</li> 
-            <a href="/"><i class="fas fa-envelope"></i>brightstarwritingacademy@gmail.com</a><br /> <br />
+            <a href="mailto:brightstarwritingacademy@gmail.com?subject=Writing training&body=Hello, I am texting from the BrightStar Academy website."><i class="fas fa-envelope"></i>brightstarwritingacademy@gmail.com</a><br /> <br />
 
             <li>Facebook:</li> 
-            <a href="/"><i class="fab fa-facebook-f" ></i>Brightstar Writing Academy</a><br /> <br />
+            <a href="/contact"><i class="fab fa-facebook-f" ></i>Brightstar Writing Academy</a><br /> <br />
             
-            <li>LinkedIn:</li> 
-            <a href="/"><i class="fab fa-linkedin-in"></i>BrightstarAcademy</a> <br />
-        
+            <li>WhatsApp</li> 
+            <a href="https://api.whatsapp.com/send?phone=+254700274853&text= Hello, I am texting from the BrightStar Academy website."><i class="fa-brands fa-whatsapp"></i>+254700274853</a> <br />
+
         </ul>
         </div>
         

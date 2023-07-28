@@ -85,7 +85,7 @@ ul{
 @media (max-width: 760px) {
     footer{
         max-width: 760px;
-        height: 50vh;
+        height: auto;
         margin: auto;
     
     }

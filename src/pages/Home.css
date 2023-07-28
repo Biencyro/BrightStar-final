@@ -117,6 +117,17 @@
 
 
 @media ( max-width:760px){
+
+    .intro p, .intro ul {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .intro li {
+        font-size: 16px;
+    }
+    .intro h2 {
+        font-size: 17px;
+    }
     .row {
         
         display: flex;
@@ -124,7 +135,14 @@
         align-items: center;
     }
     .col {
-        max-width:70vw;
+        max-width:60vw;
+        height: 30vh;
+    }
+}
+
+@media ( max-width:540px) {
+    .col {
+        max-width:100vw;
         height: 30vh;
     }
 }
