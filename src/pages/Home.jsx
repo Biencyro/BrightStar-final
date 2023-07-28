@@ -77,7 +77,7 @@ function Home() {
             <div class="row">
                 <div class="col">
                     <div class="testimonial">
-                    <img src="./images/user.png" alt=""/>
+                    <img src="./images/vc.jpg" alt=""/>
                         <div class="name">Charles O.W</div>
                         <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
@@ -149,7 +149,7 @@ function Home() {
 
                 <div class="col">
                     <div class="testimonial">
-                    <img src="./images/rw.jpeg" alt=""/>
+                    <img src="./images/user.png" alt=""/>
                         <div class="name">Olivia Ganson</div>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
@@ -167,7 +167,7 @@ function Home() {
         </div>
                 <br /><br />
 
-        <h4>Check out our courses <Link className='underline' to='/homepage'>HERE.</Link></h4>
+        <h4>Check out our course lessons <Link className='underline' to='/homepage'>HERE.</Link></h4>
 
     </div>
 
