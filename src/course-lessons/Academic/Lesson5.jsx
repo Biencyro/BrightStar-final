@@ -195,19 +195,27 @@ const Lesson5 = () => {
         </ul>
 
         <ul>To understand the MLA format better, see the sample below:</ul> <br />
+
+        <div className='samples'>
     <center>
         <embed src="/samples/MLA_sample.pdf"  
                width="800"
                height="500" 
-               type="" />
+               type="" /> <br />
+            
+            <a href="/samples/MLA_sample.pdf" download>Download Sample</a>
+
     </center>
+    </div>
+    <br /><br />
+    
     <div class="btns">
         <button class="prv">
-        <Link to='/lesson4'>Previous Lesson</Link> 
+        <Link to='/lesson4'><i class="fa-solid fa-chevron-left"></i>  Previous</Link> 
         </button>
 
         <button class="nxt">
-            <Link to='/lesson6'>Next Lesson</Link>
+            <Link to='/lesson6'>Next  <i class="fa-solid fa-chevron-right"></i></Link>
         </button>
 
      </div>
@@ -215,11 +223,11 @@ const Lesson5 = () => {
 
       <div class="btn">
         <button class="assignment">
-            <a href="assignment4.jsx">Assignment</a> 
-        </button>
-
-       
+        <Link to='/assignment4'>Assignment</Link>
+        </button> 
       </div>
+       
+      
 
   <br /><br />
 </section>

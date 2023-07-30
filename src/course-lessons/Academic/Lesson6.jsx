@@ -192,14 +192,20 @@ const Lesson6 = () => {
 
                  <div class="btns">
         <button class="prv">
-        <Link to='/lesson5'>Previous Lesson</Link> 
+        <Link to='/lesson5'><i class="fa-solid fa-chevron-left"></i>  Previous</Link> 
         </button>
 
         <button class="nxt">
-            <Link to='/lesson7'>Next Lesson</Link>
+            <Link to='/lesson7'>Next  <i class="fa-solid fa-chevron-right"></i></Link>
         </button>
-
      </div>
+     <br />
+
+     <div class="btn">
+        <button class="assignment">
+        <Link to='/assignment5'>Assignment</Link>
+        </button> 
+      </div>
      <br /> <br />
         </section>
 

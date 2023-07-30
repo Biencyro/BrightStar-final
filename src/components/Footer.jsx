@@ -22,10 +22,10 @@ const Footer = () => {
                 <div class="footer-col">
                     <h4> Our Courses</h4>
                     <ul>
-                        <li><a href="/homepage">Academic Writing</a></li>
-                        <li><a href="/homepage">Article Writing</a></li>
-                        <li><a href="/homepage">Blog Writing</a></li>
-                        <li><a href="/homepage">SEO Writing</a></li>
+                        <li><a href="/lesson1">Academic Writing</a></li>
+                        <li><a href="/lesson11">Article Writing</a></li>
+                        <li><a href="/lesson18">Blog Writing</a></li>
+                        <li><a href="/lesson25">SEO Writing</a></li>
                     </ul>
 
                 </div>

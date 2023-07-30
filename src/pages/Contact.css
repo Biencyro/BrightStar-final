@@ -4,7 +4,7 @@
     padding: 10%;
     width: 1350px;
     background-image: url('/public/images/bg-5.jpg');
-    height:720px;
+    height:100vh;
     line-height: 30px;   
 }
 .contact-page h2 {
@@ -84,7 +84,7 @@ input[type="submit"] {
         width: 480px;
         background-image: none;
         background-color: rgb(4, 15, 31);
-        height:820px;
+        height:900px;
         line-height: 30px;   
     }
 
@@ -92,12 +92,15 @@ input[type="submit"] {
         margin-top: 20px;
         padding: 10px 60px;
         float: left;
-        
     }
-
+    
+    .contact-page input {
+        width: 60vw;
+    }
+    
     .txt {
         height: 10vh; 
-        width: 50vw;
+        width: 60vw;
         background-color: #fff;
         padding: 0 20px 0 60px ;
         border-color: rgb(191, 191, 218);

@@ -281,7 +281,7 @@ const Lesson1 = () => {
           </p>
           <div class="btns">
         <button class="nxt">
-            <Link to='/lessonjhhcyudfgt8wvy'>Next Lesson</Link>
+            <Link to='/lessonjhhcyudfgt8wvy'>Next <i class="fa-solid fa-chevron-right"></i></Link>
         </button>
 
     </div>

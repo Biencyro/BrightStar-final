@@ -35,7 +35,7 @@ const HamburgerMenu = () => {
           </li>
 
           <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/homepage' className='nav-links' onClick={closeMobileMenu}>
               Course
               </Link>
           </li>
@@ -47,14 +47,14 @@ const HamburgerMenu = () => {
           </li>
 
           <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/contaact' className='nav-links' onClick={closeMobileMenu}>
               Contact
               </Link>
           </li>
 
           <li>
               <Link
-                to='/sign-up'
+                to='/authentication'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >

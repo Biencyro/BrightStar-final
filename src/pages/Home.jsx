@@ -131,7 +131,7 @@ function Home() {
 
                 <div class="col">
                     <div class="testimonial">
-                    <img src="./images/br.jpeg" alt=""/>
+                    <img src="./images/br2.jpeg" alt=""/>
                         <div class="name">Odiwuor Jack</div>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>

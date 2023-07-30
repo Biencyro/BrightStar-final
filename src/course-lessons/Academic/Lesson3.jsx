@@ -173,11 +173,11 @@ const Lesson3 = () => {
          
               <div class="btns">
         <button class="prv">
-        <Link to='/lessonjhhcyudfgt8wvy'>Previous Lesson</Link> 
+        <Link to='/lessonjhhcyudfgt8wvy'><i class="fa-solid fa-chevron-left"></i>  Previous </Link> 
         </button>
 
         <button class="nxt">
-            <Link to='/lesson4'>Next Lesson</Link>
+            <Link to='/lesson4'>Next <i class="fa-solid fa-chevron-right"></i></Link>
         </button>
 
       </div>
@@ -185,11 +185,11 @@ const Lesson3 = () => {
 
       <div class="btn">
         <button class="assignment">
-            <a href="assignment2.jsx">Assignment</a> 
-        </button>
-
-       
+        <Link to='/assignment2'>Assignment</Link>
+        </button>   
     </div>
+
+
     <br /><br />
       </section>
 

@@ -56,6 +56,8 @@ import Paypal from './components/Payment/Paypal';
 import Assignment1 from './course-lessons/Assignments/Assignment1';
 import Assignment2 from './course-lessons/Assignments/Assignment2';
 import Assignment3 from './course-lessons/Assignments/Assignment3';
+import Assignment4 from './course-lessons/Assignments/Assignment4';
+import Assignment5 from './course-lessons/Assignments/Assignment5';
 
 
 
@@ -135,6 +137,8 @@ function App() {
           {/*Assignments*/}
   <Route path='/assignment2' element = {<Assignment2/>}/>
   <Route path='/assignment3' element = {<Assignment3/>}/>
+  <Route path='/assignment4' element = {<Assignment4/>}/>
+  <Route path='/assignment5' element = {<Assignment5/>}/>
 
 
 

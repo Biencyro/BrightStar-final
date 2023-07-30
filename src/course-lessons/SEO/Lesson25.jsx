@@ -108,7 +108,7 @@ const Lesson25 = () => {
           However, focusing on SEO principles ensures your content remains adaptable to these changes, safeguarding its visibility and relevance.</li>
 
         <li> SEO is an investment that can yield long-term benefits. 
-          Unlike paid advertising, which stops when the campaign ends, SEO-optimized content can continue to attract organic traffic over an extended period, increasing your site's overall value.</li> <br />br
+          Unlike paid advertising, which stops when the campaign ends, SEO-optimized content can continue to attract organic traffic over an extended period, increasing your site's overall value.</li> <br />
 
           By the end of the SEO writing lessons you will be a fully equiped writer with adequate knowledge in: <br />
           <ul>
@@ -150,7 +150,7 @@ const Lesson25 = () => {
 
         <div class="btns">
         <button class="nxt">
-            <Link to='/lesson12'>Next Lesson</Link>
+            <Link to='/lesson26'>Next  <i class="fa-solid fa-chevron-right"></i></Link>
         </button>
 
      </div>

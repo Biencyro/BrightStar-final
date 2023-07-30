@@ -161,7 +161,7 @@ const Lesson11 = () => {
           </ul>
           <div class="btns">
         <button class="nxt">
-            <Link to='/lesson12'>Next Lesson</Link>
+            <Link to='/lesson12'>Next  <i class="fa-solid fa-chevron-right"></i></Link>
         </button>
 
      </div>

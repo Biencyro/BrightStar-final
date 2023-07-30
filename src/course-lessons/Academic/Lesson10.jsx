@@ -78,11 +78,11 @@ const Lesson10 = () => {
         </p>
         <div class="btns">
         <button class="prv">
-        <Link to='/lesson9'>Previous Lesson</Link> 
+        <Link to='/lesson9'><i class="fa-solid fa-chevron-left"></i>  Previous</Link> 
         </button>
 
         <button class="nxt">
-            <Link to='/lesson11'>Next Lesson</Link>
+            <Link to='/lesson11'>Next  <i class="fa-solid fa-chevron-right"></i></Link>
         </button>
 
      </div>

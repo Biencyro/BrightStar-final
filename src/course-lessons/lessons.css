@@ -116,13 +116,14 @@ text-decoration: underline;
 }
 
 
-.content button {
-   height: 40px;
+.content button{
+    width: 10vw;
+    height: 40px;
     background: #f5a209;
     margin-right: 6%;
     border-radius: 5px;
-
 }
+
 button:hover{
     
     background: #eb0c0c;
@@ -133,6 +134,15 @@ button a {
     color: #ffff;
     font-size: 16px;
 }
+
+.samples a{
+    color: blue;
+  text-decoration: underline;
+ 
+}
+.samples a:hover {
+    color: rgb(230, 21, 21);
+}
         
 
 @media (max-width: 760px) {
@@ -142,7 +152,7 @@ button a {
         
     }
     
-    .content, .content ul {
+    .content {
     
       padding: 5%;  
     }
@@ -156,6 +166,11 @@ button a {
     .content p, .content ul{
         font-size: 14px;
         line-height:30px;
+    }
+    
+    .content ul {
+        margin-left: 10px;
+
     }
     .content h3{
         font-size: 16px;

@@ -215,6 +215,9 @@ const Lesson4 = () => {
       </ul>
 
         <ul>To understand the APA format better, see the sample below:</ul> <br />
+
+
+        <div className='samples'>
     <center>
 
       <h4>Sample 1:</h4>
@@ -222,7 +225,8 @@ const Lesson4 = () => {
         <embed src="/samples/APA_sample.PDF"  
                width="800"
                height="500" 
-               type="" />
+               type="" /> <br />
+        <a href="/samples/APA_sample.PDF" download>Download Sample</a>
 
                <br /> <br />
 
@@ -231,15 +235,19 @@ const Lesson4 = () => {
         <embed src="/samples/APA_sample2.pdf"  
                width="800"
                height="500" 
-               type="" />
+               type="" /> <br />
+        <a href="/samples/APA_sample2.PDF" download>Download Sample</a>
     </center>
+    </div>
+    <br /><br />
+    
     <div class="btns">
         <button class="prv">
-        <Link to='/lesson3'>Previous Lesson</Link> 
+        <Link to='/lesson3'><i class="fa-solid fa-chevron-left"></i>  Previous</Link> 
         </button>
 
         <button class="nxt">
-            <Link to='/lesson5'>Next Lesson</Link>
+            <Link to='/lesson5'>Next  <i class="fa-solid fa-chevron-right"></i></Link>
         </button>
 
       </div>
@@ -247,10 +255,8 @@ const Lesson4 = () => {
 
       <div class="btn">
         <button class="assignment">
-            <a href="assignment3.jsx">Assignment</a> 
-        </button>
-
-       
+        <Link to='/assignment3'>Assignment</Link>
+        </button> 
       </div>
 
       <br /><br />

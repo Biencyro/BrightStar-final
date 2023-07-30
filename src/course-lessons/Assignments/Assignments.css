@@ -1,7 +1,7 @@
 .assignment-page {
     
     width: 1350px;
-    background-color: rgb(4, 15, 31);;
+    background-color: rgb(4, 15, 31);
     line-height: 40px;
     
     
@@ -64,6 +64,10 @@ input[type="submit"] {
     .assignment-page p { 
         font-size: 15px;
         line-height: 30px;
+    }
+
+    .assignment-page input {
+        width: 70vw;
     }
 
     textarea {

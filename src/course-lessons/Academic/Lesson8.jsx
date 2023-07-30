@@ -137,11 +137,11 @@ const Lesson8 = () => {
 
         <div class="btns">
         <button class="prv">
-        <Link to='/lesson7'>Previous Lesson</Link> 
+        <Link to='/lesson7'><i class="fa-solid fa-chevron-left"></i>  Previous</Link> 
         </button>
 
         <button class="nxt">
-            <Link to='/lesson9'>Next Lesson</Link>
+            <Link to='/lesson9'>Next <i class="fa-solid fa-chevron-right"></i></Link>
         </button>
 
      </div>
